@@ -27,35 +27,35 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 90%; 
     margin: 0 auto;
 }
 
 header {
     background-color: #ffffff00;
     color: #fff;
-    padding: 20px 0;
+    padding: 15px 0; 
     text-align: center;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.278);
     position: relative; 
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2em; 
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
 
 header .btn-link {
     position: absolute;
-    top: 20px;
-    left: 20px;
-    padding: 10px 20px;
+    top: 10px; 
+    left: 10px; 
+    padding: 8px 16px; 
     background-color: #7e7d7dce;
     color: #fff;
     border: none;
     border-radius: 5px;
-    font-size: 1.1em;
+    font-size: 1em; 
     cursor: pointer;
 }
 
@@ -64,19 +64,19 @@ header .btn-link:hover {
 }
 
 main {
-    padding: 40px 0;
+    padding: 30px 0; 
     flex-grow: 1;
 }
 
 .rules h2 {
-    font-size: 1.8em;
+    font-size: 1.6em; 
     margin-bottom: 10px;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
 }
 
 .rules p {
-    font-size: 1.1em;
+    font-size: 1em; 
     margin-bottom: 20px;
     color: #ffffffd9;
 }
@@ -84,9 +84,9 @@ main {
 footer {
     background-color: #ffffff00;
     color: #fff;
-    padding: 20px 0;
+    padding: 15px 0; 
     text-align: center;
-    box-shadow: 0 -4px 8px rgba(255, 255, 255, 0);
+    box-shadow: 0 -4px 8px rgba(255, 255, 255, 0.33);
     margin-top: auto;
 }
 
@@ -97,23 +97,31 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em; 
+    }
     .container {
         width: 90%;
     }
-
-    header h1 {
-        font-size: 2em;
+    header .btn-link {
+        top: 10px;
+        left: 10px;
+        padding: 8px 16px;
+        font-size: 1em;
     }
-
+    main {
+        padding: 20px 0;
+    }
     .rules h2 {
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
-
     .rules p {
         font-size: 1em;
     }
+    footer {
+        padding: 15px 0;
+    }
 }
-
 </style>
 <body>
     <header>
@@ -169,9 +177,9 @@ footer p {
 
     <footer>
         <div class="container">
-            <p>© 2025 Ukraine RP. Всі права захищені.
-                Усі матеріали, представлені на цьому сайті, є об'єктами авторського права і охороняються відповідно до законодавства.
-                Копіювання, розподіл або використання матеріалів сайту в будь-якій формі без попередньої письмової згоди власника авторських прав заборонено.</p>
+            <p><b>© 2025 Ukraine RP. Всі права захищені.</b><br>
+                <small>Усі матеріали, представлені на цьому сайті, є об'єктами авторського права і охороняються відповідно до законодавства.
+                Копіювання, розподіл або використання матеріалів сайту в будь-якій формі без попередньої письмової згоди власника авторських прав заборонено.</small></p>
         </div>
     </footer>
 
